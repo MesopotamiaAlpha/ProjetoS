@@ -1,3 +1,8 @@
+<!--animação do mosaico-->
+<link href="/estilos/mosaico.css" rel="stylesheet">
+css de momento desativado para entender o bug da transicao
+
+
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght700;900&display=sawp');
 *
 {
@@ -74,3 +79,4 @@ section .container h2 span.text4{
                      0 0 100px #ff3177;
     }
 }
+

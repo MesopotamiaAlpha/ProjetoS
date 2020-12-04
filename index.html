@@ -8,8 +8,9 @@
     <!-- o script a baixo faz a função da transição, tenha certeza de estar em todas as paginas e de ser carregado depois do swup de cima-->
     <script defer src="/script.js"></script>
     <!--importando a animação em css-->
+    <!--css do mosaico esta dentro do de transicao por algum bug que chama somente 1 css-->
     <link href="estilos/transicao.css" rel="stylesheet">
-    
+
     <title>Inicio</title>
 </head>
 <body>
@@ -19,7 +20,7 @@
             <li><a href="/mosaico.html">Mosaico</a></li>
         </ul>
     </nav>
-
+<!--por algum motivo tudo o que vai entrar na nova pagina precisa ser adicionado dentro do main do swup com o css dentro da css de transicao-->
     <main id="swup" class="transition-fade">
      <h1>Essa é a pagina principal</h1>
     </main>

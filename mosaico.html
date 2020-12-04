@@ -2,9 +2,8 @@
 <html lang="pt">
 <head>
     <!--importando a animação em css-->
+    <!--css do mosaico esta dentro do de transicao por algum bug que chama somente 1 css-->
     <link href="/estilos/transicao.css" rel="stylesheet">
-    <!--animação do mosaico-->
-    <link href="/estilos/mosaico.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--este codigo abaixo do node é a biblioteca swup sendo importada para a pagina-->
@@ -12,7 +11,8 @@
         <!-- o script a baixo faz a função da transição, tenha certeza de estar em todas as paginas e de ser carregado depois do swup de cima-->
         <script defer src="/script.js"></script>
         <!--importando a animação em css-->
-        <link href="estilos/transicao.css" rel="stylesheet">
+        <link href="/estilos/transicao.css" rel="stylesheet">
+
 
     <title>Dentro do git</title>
 </head>
@@ -24,13 +24,10 @@
             <li><a href="/mosaico.html">Mosaico</a></li>
         </ul>
     </nav>
-
+    <!--por algum motivo tudo o que vai entrar na nova pagina precisa ser adicionado dentro do main do swup com o css dentro da css de transicao-->
     <main id="swup" class="transition-fade">
      <h1>Essa é a pagina do mosaico</h1>
-    </main>
-
-  
-    <section>
+     <section>
         <div class="container">
             <!--pulando linha para não ficar em cima da barra superior-->
             <br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -49,6 +46,10 @@
             <h2>ksv5echekjc2s5vkjuev5a25cveyn</h2>
         </div>
     </section>
+    </main>
+
+  
+
 
 
 
