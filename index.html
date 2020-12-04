@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--este codigo abaixo do node é a biblioteca swup sendo importada para a pagina-->
+    <script defer src="node_modules/swup/dist/swup.min.js"></script>
+    <!-- o script a baixo faz a função da transição, tenha certeza de estar em todas as paginas e de ser carregado depois do swup de cima-->
+    <script defer src="/script.js"></script>
+    <!--importando a animação em css-->
+    <link href="estilos/transicao.css" rel="stylesheet">
+    
     <title>Inicio</title>
 </head>
 <body>
-    
+    <nav>
+        <ul>
+            <li><a href="/index.html">Pagina principal</a></li>
+            <li><a href="/mosaico.html">Mosaico</a></li>
+        </ul>
+    </nav>
+
+    <main id="swup" class="transition-fade">
+     <h1>Essa é a pagina principal</h1>
+    </main>
+
 </body>
 </html>
