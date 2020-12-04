@@ -1,1 +1,1 @@
-ProjetoS
+Projeto sendo desenvolvido para ser um conjunto de animações em CSS com html.
